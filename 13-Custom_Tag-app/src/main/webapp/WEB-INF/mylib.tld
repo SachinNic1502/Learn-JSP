@@ -1,0 +1,32 @@
+
+
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>Testing</short-name>
+  
+  
+  <tag>
+  <name>greet</name>
+  <tag-class>tag.Welcome</tag-class>
+  <body-content>empty</body-content>
+   
+   <attribute>
+   <name>msg</name>
+   <required>true</required>
+   </attribute>
+    
+  </tag>
+  
+  <tag>
+  <name>greet1</name>
+  <tag-class>tag.Demo</tag-class>
+  <body-content>empty</body-content>
+  
+  <attribute>
+   <name>side</name>
+   <required>true</required>
+   </attribute>
+  
+  </tag>
+</taglib>
